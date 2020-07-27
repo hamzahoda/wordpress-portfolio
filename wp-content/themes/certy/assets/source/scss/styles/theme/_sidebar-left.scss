@@ -1,0 +1,52 @@
+/**
+ * Left Sidebar
+ */
+ 
+#crtSideBox {
+  transition: top 300ms ease-out;
+
+  .widget {
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+  }
+
+  .certy_widget_card {
+    padding: 0;
+  }
+}
+
+.crt-side-box-btn {
+  padding: 20px;
+
+  .btn {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $screen-md) {
+  #crtSideBoxWrap {
+    width: $side-box-width;
+    float: left;
+  }
+
+  #crtSideBox {
+    .crt-side-box-2 {
+      background: transparent;
+    }
+
+    .crt-side-box-1,
+    .crt-side-box-2 .widget {
+      margin-bottom: 30px;
+      box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .crt-side-box-cont {
+    padding: 20px;
+  }
+
+  .crt-side-box-btn {
+    padding: 40px 35px;
+  }
+}

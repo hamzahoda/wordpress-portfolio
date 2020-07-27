@@ -1,0 +1,36 @@
+/* Contact Form 7 */
+.wpcf7-form label {
+  line-height: 2.5em;
+  font-size: 0.82em;
+  letter-spacing: 0.02em;
+}
+
+span.wpcf7-not-valid-tip {
+  font-size: 0.83em;
+  color: #ff4328;
+}
+
+.wpcf7-form-control.wpcf7-not-valid {
+  border: 1px solid #ff4328;
+}
+
+.wpcf7-recaptcha {
+  margin-bottom: $base-space;
+}
+
+div.wpcf7-response-output {
+  padding: 0;
+  border: 0;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.wpcf7-mail-sent-ok {
+  color: #398f14;
+}
+
+.wpcf7-mail-sent-ng,
+.wpcf7-spam-blocked,
+.wpcf7-validation-errors{
+  color: #ff0000;
+}

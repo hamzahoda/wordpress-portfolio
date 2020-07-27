@@ -1,0 +1,91 @@
+/**
+ * Share
+ */
+.share-box {
+  margin-bottom: $base-space - 5;
+
+  .share-btn {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: $screen-sm) {
+    &.text-left {
+      .share-btn {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 0;
+      }
+    }
+
+    &.text-right {
+      .share-btn {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  div[class^="addthis_inline_share_toolbox"] {
+    clear: none !important;
+  }
+
+
+  .share-icons {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .at-share-btn-elements {
+    a {
+      opacity: 0;
+    }
+  }
+
+  &.hovered {
+    .share-icons {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .at-share-btn-elements {
+      a {
+        animation: FadeIn 250ms linear;
+        animation-fill-mode: both;
+
+        &:nth-child(1){ animation-delay: 0ms }
+        &:nth-child(2){ animation-delay: 50ms }
+        &:nth-child(3){ animation-delay: 100ms }
+        &:nth-child(4){ animation-delay: 145ms }
+        &:nth-child(5){ animation-delay: 175ms }
+        &:nth-child(6){ animation-delay: 200ms }
+        &:nth-child(7){ animation-delay: 220ms }
+        &:nth-child(8){ animation-delay: 235ms }
+        &:nth-child(9){ animation-delay: 245ms }
+        &:nth-child(10){ animation-delay: 250ms }
+      }
+    }
+  }
+
+  &.closing {
+    .at-share-btn-elements {
+      a {
+        animation: FadeOut 250ms linear;
+        animation-fill-mode: both;
+
+        &:nth-child(1){ animation-delay: 250ms }
+        &:nth-child(2){ animation-delay: 245ms }
+        &:nth-child(3){ animation-delay: 235ms }
+        &:nth-child(4){ animation-delay: 220ms }
+        &:nth-child(5){ animation-delay: 200ms }
+        &:nth-child(6){ animation-delay: 175ms }
+        &:nth-child(7){ animation-delay: 145ms }
+        &:nth-child(8){ animation-delay: 100ms }
+        &:nth-child(9){ animation-delay: 50ms }
+        &:nth-child(10){ animation-delay: 0ms }
+      }
+    }
+  }
+}

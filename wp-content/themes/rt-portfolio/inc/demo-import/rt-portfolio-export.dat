@@ -1,0 +1,22 @@
+a:4:{s:8:"template";s:12:"rt-portfolio";s:4:"mods";a:5:{i:0;b:0;s:18:"nav_menu_locations";a:2:{s:6:"menu-1";i:7;s:11:"social-menu";i:8;}s:18:"custom_css_post_id";i:-1;s:13:"theme_options";a:15:{s:11:"banner_page";i:37;s:15:"progress_secton";s:214:"[{"progress_number":"85","progress_icon":"%","progress_title":"WordPress"},{"progress_number":"90","progress_icon":"%","progress_title":"Php"},{"progress_number":"75","progress_icon":"%","progress_title":"Jquery"}]";s:16:"service_category";i:5;s:18:"portfolio_category";i:4;s:20:"testimonial_category";i:6;s:12:"partner_logo";s:461:"[{"client_logo":"https:\/\/demo.rigorousthemes.com\/rt-portfolio\/wp-content\/uploads\/2018\/08\/logo3-3-1.png"},{"client_logo":"https:\/\/demo.rigorousthemes.com\/rt-portfolio\/wp-content\/uploads\/2018\/08\/logo2-3-1.png"},{"client_logo":"https:\/\/demo.rigorousthemes.com\/rt-portfolio\/wp-content\/uploads\/2018\/08\/logo4-3-1.png"},{"client_logo":"https:\/\/demo.rigorousthemes.com\/rt-portfolio\/wp-content\/uploads\/2018\/08\/1200px-MySQL.svg_-3-1.png"}]";s:13:"team_category";i:6;s:13:"blog_category";i:2;s:12:"contact_page";i:136;s:21:"contact_callback_html";s:485:"<p>
+  <i class="fa fa-map-marker"></i>
+  <span>37 Wellington Street, Republic of Leone</span>
+</p>
+<p>
+  <i class="fa fa-phone"></i>
+  <span><a href="tel:+556-1234567890">+556-1234567890</a>
+  <span>free cal</span>
+  </span>
+</p>
+<p>
+<i class="fa fa-envelope"></i>
+  <span><a href="mailto:myportfoli@gmail.com">myportfoli@gmail.com</a>
+  <span>24hrs service</span>
+  </span>
+</p>
+<p>
+  <i class="fa fa-globe"></i>
+  <span>Mon-Sat 8:00 - 9:00
+  <span>Sunday Closed</span>
+  </span>
+</p>";s:16:"intro_page_first";i:13;s:18:"intro_title_second";s:10:"Experience";s:17:"intro_page_second";i:41;s:14:"counter_secton";s:173:"[{"counter_number":"250","counter_title":"Project Completed"},{"counter_number":"8","counter_title":"Year of Experience"},{"counter_number":"2","counter_title":"Award Win"}]";s:13:"site_identity";s:9:"logo-only";}s:11:"custom_logo";i:95;}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:0:"";}

@@ -1,0 +1,48 @@
+/**
+ * Page Icon List Styles
+ */
+
+.crt-icons-list {
+  margin: 0 0 25px 0;
+  padding: 0;
+  list-style: none;
+  li{
+    width: 20%;
+    float: left;
+    height: 150px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    .crt-icon {
+      font-size: 42px;
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.crt-icon-class {
+  font-size: 10px;
+  display: block;
+  letter-spacing: 1px;
+}
+
+@media(max-width: 1199px){
+  .crt-icons-list li {
+    width: 25%;
+  }
+}
+
+@media(max-width: 767px){
+  .crt-icons-list li {
+    width: 33.33%;
+    padding: 5px;
+  }
+}
+
+@media(max-width: 479px){
+  .crt-icons-list li {
+    width: 50%;
+  }
+}

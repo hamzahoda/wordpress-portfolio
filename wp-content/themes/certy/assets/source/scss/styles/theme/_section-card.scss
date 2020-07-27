@@ -1,0 +1,104 @@
+/**
+ * Section: Card
+ */
+
+.crt-paper-cont {
+  .section-card:first-child {
+    margin-top: -20px;
+  }
+}
+
+.crt-card {
+  padding: 30px 20px 20px 20px;
+}
+
+.crt-card-info {
+  h2 {
+    font-size: 1.625em;
+    margin-bottom: 0.688em;
+  }
+
+  .text-muted {
+    color: inherit;
+    opacity: 0.65;
+  }
+}
+
+.crt-card-avatar {
+  position: relative;
+
+  span {
+    display: inline-block;
+  }
+
+  & + .crt-card-info {
+    margin-top: 33px;
+  }
+}
+
+.crt-avatar-state {
+  cursor: pointer;
+  display: inline-block;
+  
+  &:hover {
+    .crt-avatar-state2 {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+.crt-avatar-state2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease-out, visibility 200ms ease-out;
+}
+
+// Card Wide Mode
+.crt-card-wide {
+  .crt-avatar-state {
+    position: relative;
+  }
+}
+
+@media (min-width: $screen-md) {
+  .crt-card-wide {
+    width: 100%;
+    display: table;
+    padding: 50px 6%;
+
+    .crt-card-avatar,
+    .crt-card-info {
+      display: table-cell;
+      vertical-align: top;
+    }
+
+    .crt-card-avatar {
+      width: 195px;
+      max-width: 195px;
+    }
+
+    .crt-social {
+      margin-top: 30px;
+    }
+
+    .crt-card-avatar + .crt-card-info {
+      padding-left: 8%;
+      padding-top: 1.250em;
+    }
+
+    .crt-card-info {
+      text-align: left;
+
+      h2 {
+        font-size: 2.688em;
+        margin-bottom: 0.2em;
+      }
+    }
+  }
+}

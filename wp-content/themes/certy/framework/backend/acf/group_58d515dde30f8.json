@@ -1,0 +1,142 @@
+{
+    "key": "group_58d515dde30f8",
+    "title": "Timeline Options",
+    "fields": [
+        {
+            "key": "field_58d516ce9b176",
+            "label": "Title Link",
+            "name": "title_link",
+            "type": "text",
+            "instructions": "Put the title link",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d516f29b177",
+            "label": "Featured Image Link",
+            "name": "featured_image_link",
+            "type": "text",
+            "instructions": "Put the link for featured image",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5bb5e7d5c0ed1",
+            "label": "Open In New Tab",
+            "name": "open_in_new_tab",
+            "type": "checkbox",
+            "instructions": "Select the checkbox to open the links in new tab",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "open_in_new_tab": "Open In New Tab"
+            },
+            "allow_custom": 0,
+            "save_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_58d515e84e4e5",
+            "label": "Period",
+            "name": "period",
+            "type": "text",
+            "instructions": "Type the dates",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d516094e4e6",
+            "label": "Secondary Title",
+            "name": "secondary_title",
+            "type": "text",
+            "instructions": "Type the secondary title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d5169c68381",
+            "label": "Secondary Title Link",
+            "name": "secondary_title_link",
+            "type": "text",
+            "instructions": "Put the link for secondary title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "certy_timeline"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1538649030
+}

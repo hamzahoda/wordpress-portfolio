@@ -1,0 +1,1668 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Certy\n"
+"POT-Creation-Date: 2017-06-20 18:48+0500\n"
+"PO-Revision-Date: 2017-06-20 18:40+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:22
+msgid "Comments"
+msgstr ""
+
+#: comments.php:42 framework/backend/customizer/kirki.php:705
+msgid "Name"
+msgstr ""
+
+#: comments.php:49
+msgid "Email"
+msgstr ""
+
+#: comments.php:56
+msgid "Website"
+msgstr ""
+
+#: comments.php:63
+msgid "Your email address will not be published.<br>"
+msgstr ""
+
+#: comments.php:63
+msgid "Required fields are marked"
+msgstr ""
+
+#: comments.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:69
+msgid "Your Comment"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:393
+#: framework/backend/activation/class-tgm-plugin-activation.php:912
+#: framework/backend/activation/class-tgm-plugin-activation.php:2618
+#: framework/backend/activation/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:394
+#: framework/backend/activation/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:395
+#: framework/backend/activation/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:1019
+#: framework/backend/activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:1206
+#: framework/backend/activation/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3594
+#: framework/backend/activation/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3594
+#: framework/backend/activation/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/backend/activation/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:69
+msgid "WP Reset"
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:70
+msgid "WordPress Reset"
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:71
+msgid "WordPress Database Reset"
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:75
+msgid ""
+"If you want your demo to looked exactly like selected demo and to prevent "
+"conflicts with current content, we highly recommend importing demo data on a "
+"clean installation."
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:76
+msgid ""
+"We highly recommend to create backup of your site before database reset if "
+"you are working on your database. Please note that database reset means "
+"cleaning all content that you have in your WordPress and restore to "
+"WordPress defaults."
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:77
+#, php-format
+msgid ""
+"Please feel free to use %1$s, %2$s or %3$s plugins to reset your WordPress "
+"site."
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:90
+#: framework/backend/customizer/kirki.php:51
+msgid "Designer"
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:98
+#: framework/backend/customizer/kirki.php:69
+msgid "Florist"
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:106
+#: framework/backend/customizer/kirki.php:87
+msgid "Architect"
+msgstr ""
+
+#: framework/backend/activation/one_click_demo.php:114
+#: framework/backend/customizer/kirki.php:105
+msgid "Attorney"
+msgstr ""
+
+#: framework/backend/activation/plugins-activation.php:19
+msgid "Certy Theme Extensions"
+msgstr ""
+
+#: framework/backend/activation/plugins-activation.php:30
+msgid "Advanced Custom Fields PRO"
+msgstr ""
+
+#: framework/backend/activation/plugins-activation.php:41
+msgid "One Click Demo Importer"
+msgstr ""
+
+#: framework/backend/activation/plugins-activation.php:51
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/backend/activation/plugins-activation.php:62
+msgid "Appointment Calendar"
+msgstr ""
+
+#: framework/backend/activation/plugins-activation.php:72
+msgid "Share Buttons by AddThis"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:22
+msgid "Styling"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:26
+msgid "Color Scheme"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:27
+msgid "Here you can customize color scheme"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:37
+msgid "Theme Colors"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:44
+msgid "Select Predefined Color Scheme"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:123
+msgid "Color 2"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:141
+msgid "Color 3"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:159
+msgid "Color 4"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:177
+msgid "Color 5"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:195
+msgid "Color 6"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:213
+msgid "Color 7"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:231
+msgid "Color 8"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:249
+msgid "Color 9"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:271
+msgid "Primary Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:279
+msgid "Primary Text Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:287
+msgid "Main Text Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:295
+msgid "Muted Text, Header Nav, Slider Arrows, Pagination etc."
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:303
+msgid "Borders"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:311
+msgid "Left Shape Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:319
+msgid "Right Shape Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:327
+msgid "Body Background Color, Inputs Background Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:335
+msgid "Papers Background Color & Other White Elements"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:344
+msgid "Button Colors"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:351
+msgid "Default Button Background Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:359
+msgid "Text Color For Default Buttons"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:367
+msgid "Secondary Button Background Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:375
+msgid "Text Color For Secondary buttons"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:382
+msgid "Background & Paper"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:383
+msgid "Here you can customize the background and paper options"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:393
+msgid "Background"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:399
+msgid "Image"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:406
+msgid "Image Style"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:412
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:112
+msgid "Cover"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:413
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:115
+msgid "Fixed"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:419
+msgid "Enable Overlay For Image"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:427
+msgid "Overlay Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:438
+msgid "Disable Left Shape"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:446
+msgid "Disable Right Shape"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:455
+msgid "Paper"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:462
+msgid "Disable Paper Animation"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:469
+msgid "Paper Layers Count"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:475
+msgid "1"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:476
+msgid "2"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:477
+msgid "3"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:483
+msgid "Show Blog Posts In Separate Papers"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:492
+msgid "Header"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:493
+msgid "Here you can customize header options"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:502
+msgid "Logo"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:509
+msgid "Retina Logo"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:517
+msgid "Logo Text"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:519
+msgid "certy"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:524
+msgid "Logo Position"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:530
+msgid "In"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:531
+msgid "Out"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:537
+msgid "Hide Logo Area"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:544
+msgid "Menu Position"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:550
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:159
+msgid "Left"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:551
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:161
+msgid "Center"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:552
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:160
+msgid "Right"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:559
+msgid "Footer"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:560
+msgid "Here you can customize footer options"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:569
+msgid "Footer Content"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:577
+#: framework/backend/theme-functions/theme-setup.php:81
+msgid "Vertical Navigation"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:578
+msgid "Here you can customize vertical navigation"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:587
+msgid "Enable Sticky Navigation"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:595
+msgid "Show Vertical Navigation Background"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:602
+msgid "Personal Image"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:603
+msgid "Upload the image for the first menu item"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:611
+msgid "Link For Personal Image"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:618
+msgid "Tooltip For Personal Image"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:626
+msgid "Typography"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:627
+msgid "Here you can customize typography options"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:636
+msgid "Google Font Api Key"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:637
+#: framework/backend/customizer/kirki.php:773
+msgid "Follow "
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:637
+#: framework/backend/customizer/kirki.php:773
+msgid "the instructions"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:637
+#: framework/backend/customizer/kirki.php:773
+msgid " to get api key"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:645
+msgid "Main Font Family"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:655
+msgid "Heading Font Family"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:665
+msgid "Logo Font Family"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:676
+#: framework/backend/customizer/kirki.php:699
+msgid "Social"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:677
+msgid "Here you can customize social options"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:687
+msgid "Addthis Inline Share Toolbox"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:688
+msgid "Put here the addthis div to show the social share"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:694
+msgid "Add Socials"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:706
+msgid "The social icon name"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:711
+msgid "Link URL"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:712
+msgid "This will be the link URL for social icon"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:721
+msgid "404 Options"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:731
+msgid "404 Page"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:737
+msgid "Title"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:740
+msgid "404"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:746
+msgid "description"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:748
+msgid "THE PAGE YOU WERE LOOKING FOR DOESN'T EXIST"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:753
+msgid "Button Text"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:756
+msgid "Go Back"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:762
+msgid "Map"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:772
+msgid "Google Map Api Key"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:781
+msgid "Google Map Style"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:782
+msgid "Put the json code from here "
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:782
+msgid "snazzymaps"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:789
+msgid "Other"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:799
+msgid "Show Left Sidebar Only For Home"
+msgstr ""
+
+#: framework/backend/customizer/kirki.php:808
+msgid "Hide Excerpt Area From Listings"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:104
+msgid "Background Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:105
+msgid "Background Image"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:106
+msgid "No Repeat"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:107
+msgid "Repeat All"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:108
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:109
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:110
+msgid "Inherit"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:111
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:113
+msgid "Contain"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:114
+msgid "Background Size"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:116
+msgid "Scroll"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:117
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:118
+msgid "Left Top"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:119
+msgid "Left Center"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:120
+msgid "Left Bottom"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:121
+msgid "Right Top"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:122
+msgid "Right Center"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:123
+msgid "Right Bottom"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:124
+msgid "Center Top"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:125
+msgid "Center Center"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:126
+msgid "Center Bottom"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:127
+msgid "Background Position"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:128
+msgid "Background Opacity"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:129
+msgid "ON"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:130
+msgid "OFF"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:131
+#: template-parts/page-components/portfolio.php:63
+msgid "All"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:132
+msgid "Cyrillic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:133
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:134
+msgid "Devanagari"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:135
+msgid "Greek"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:136
+msgid "Greek Extended"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:137
+msgid "Khmer"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:138
+msgid "Latin"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:139
+msgid "Latin Extended"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:140
+msgid "Vietnamese"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:141
+msgid "Hebrew"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:142
+msgid "Arabic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:143
+msgid "Bengali"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:144
+msgid "Gujarati"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:145
+msgid "Tamil"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:146
+msgid "Telugu"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:147
+msgid "Thai"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:148
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:149
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:150
+msgctxt "font style"
+msgid "Monospace"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:151
+msgid "Font Family"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:152
+msgid "Font Size"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:153
+msgid "Font Weight"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:154
+msgid "Line Height"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:155
+msgid "Font Style"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:156
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:157
+msgid "Top"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:158
+msgid "Bottom"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:162
+msgid "Justify"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:163
+msgid "Color"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:164
+msgid "Add Image"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:165
+msgid "Change Image"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:166
+msgid "No Image Selected"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:167
+msgid "Add File"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:168
+msgid "Change File"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:169
+msgid "No File Selected"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:170
+msgid "Remove"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:171
+msgid "Select a font-family"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:172
+msgid "Variant"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:173
+msgid "Subset"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:174
+msgid "Size"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:175
+msgid "Height"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:176
+msgid "Spacing"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:177
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:178
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:179
+msgid "Light 200"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:180
+msgid "Light 200 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:181
+msgid "Book 300"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:182
+msgid "Book 300 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:183
+msgid "Normal 400"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:184
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:185
+msgid "Medium 500"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:186
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:187
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:188
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:189
+msgid "Bold 700"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:190
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:191
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:192
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:193
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:194
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:195
+msgid "Invalid Value"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:196
+msgid "Add new"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:197
+msgid "row"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:198
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:199
+#: framework/backend/customizer/kirki/includes/sections/class-kirki-sections-hover-section.php:40
+msgid "Press return or enter to open this section"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:200
+#: framework/backend/customizer/kirki/includes/sections/class-kirki-sections-hover-section.php:46
+msgid "Back"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:201
+#, php-format
+msgid "%s Reset"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:202
+msgid "Text Align"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:203
+msgid "Text Transform"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:204
+msgid "None"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:205
+msgid "Capitalize"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:206
+msgid "Uppercase"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:207
+msgid "Lowercase"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:208
+msgid "Initial"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:209
+msgid "Select a Page"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:210
+msgid "Open Editor"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:211
+msgid "Close Editor"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:212
+msgid "Switch Editor"
+msgstr ""
+
+#: framework/backend/customizer/kirki/includes/class-kirki-l10n.php:213
+msgid "Hex Value"
+msgstr ""
+
+#: framework/backend/theme-functions/theme-functions.php:35
+msgid "Please fill in the \"Google Font Api Key\""
+msgstr ""
+
+#: framework/backend/theme-functions/theme-setup.php:80
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/backend/widgets/card.php:36
+msgid "Card Widget"
+msgstr ""
+
+#: framework/backend/widgets/card.php:42
+msgid "Certy: Card Widget"
+msgstr ""
+
+#: framework/backend/widgets/card.php:143
+msgid "Image Url:"
+msgstr ""
+
+#: framework/backend/widgets/card.php:148
+msgid "Hover Image Url:"
+msgstr ""
+
+#: framework/backend/widgets/card.php:153
+#: framework/backend/widgets/instagram-widget.php:110
+#: framework/backend/widgets/recent-posts.php:148
+msgid "Title:"
+msgstr ""
+
+#: framework/backend/widgets/card.php:159
+msgid "Secondary Title:"
+msgstr ""
+
+#: framework/backend/widgets/card.php:165
+msgid "Show Social Icons"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:20
+msgid "Main Left Sidebar 1"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:22
+#: framework/backend/widgets/functions.php:32
+#: framework/backend/widgets/functions.php:62
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: framework/backend/widgets/functions.php:30
+msgid "Main Left Sidebar 2"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:40
+msgid "Secondary Left Sidebar 1"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:42
+msgid ""
+"This sidebar will override the \"Main Left Sidebar 1\" on all pages "
+"different from home."
+msgstr ""
+
+#: framework/backend/widgets/functions.php:50
+msgid "Secondary Left Sidebar 2"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:52
+msgid ""
+"This sidebar will override the \"Main Left Sidebar 2\" on all pages "
+"different from home."
+msgstr ""
+
+#: framework/backend/widgets/functions.php:60
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:70
+msgid "Right Sidebar For Pages"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:72
+msgid "This sidebar will override the main \"Right Sidebar\" on all pages"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:80
+msgid "Right Sidebar For Archive Pages"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:82
+msgid ""
+"This sidebar will override the main \"Right Sidebar\" on all archive "
+"pages(category, archive, tag, etc)"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:90
+msgid "Right Sidebar For Single Post"
+msgstr ""
+
+#: framework/backend/widgets/functions.php:92
+msgid "This sidebar will override the main \"Right Sidebar\" on single post"
+msgstr ""
+
+#: framework/backend/widgets/instagram-widget.php:36
+msgid "Shows the instagram photos"
+msgstr ""
+
+#: framework/backend/widgets/instagram-widget.php:42
+msgid "Certy: Instagram Widget"
+msgstr ""
+
+#: framework/backend/widgets/instagram-widget.php:115
+msgid "Access Token:"
+msgstr ""
+
+#: framework/backend/widgets/instagram-widget.php:120
+#: framework/backend/widgets/recent-posts.php:153
+msgid "Count:"
+msgstr ""
+
+#: framework/backend/widgets/instagram-widget.php:125
+msgid "Please "
+msgstr ""
+
+#: framework/backend/widgets/instagram-widget.php:125
+msgid "Generate Access Token "
+msgstr ""
+
+#: framework/backend/widgets/instagram-widget.php:125
+msgid ""
+"and put the token to \"access_token\" field above to make this widget work"
+msgstr ""
+
+#: framework/backend/widgets/recent-posts.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: framework/backend/widgets/recent-posts.php:111
+#: template-parts/post-components/post-single.php:117
+msgid "comments"
+msgstr ""
+
+#: framework/backend/widgets/recent-posts.php:158
+msgid "Category ID (optional):"
+msgstr ""
+
+#: framework/frontend/theme-functions/theme-functions.php:50
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: framework/frontend/theme-functions/theme-functions.php:78
+msgid "Posted on"
+msgstr ""
+
+#: framework/frontend/theme-functions/theme-functions.php:100
+msgid "at"
+msgstr ""
+
+#: framework/frontend/theme-functions/theme-functions.php:120
+msgid "show replies"
+msgstr ""
+
+#: framework/frontend/theme-functions/theme-functions.php:126
+msgid "Edit"
+msgstr ""
+
+#: framework/frontend/theme-functions/theme-functions.php:142
+msgid "Post Comment"
+msgstr ""
+
+#: search.php:19
+msgid "search results for:"
+msgstr ""
+
+#: search.php:46 template-parts/post-components/post-single.php:121
+msgid "Read More"
+msgstr ""
+
+#: search.php:54
+msgid "nothing found"
+msgstr ""
+
+#: searchform.php:18
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:21
+msgctxt "value"
+msgid "Try Again"
+msgstr ""
+
+#: template-parts/page-components/portfolio.php:118
+msgid "View More"
+msgstr ""
+
+#: template-parts/page-components/portfolio.php:223
+msgid "View"
+msgstr ""
+
+#: template-parts/post-components/navigation.php:18
+msgid "Previous"
+msgstr ""
+
+#: template-parts/post-components/navigation.php:28
+msgid "Next"
+msgstr ""
+
+#: template-parts/post-components/navigation.php:37
+msgid "Post navigation"
+msgstr ""
+
+#: template-parts/post-components/navigation.php:42
+msgid "previous article"
+msgstr ""
+
+#: template-parts/post-components/navigation.php:48
+msgid "next article"
+msgstr ""
+
+#: template-parts/post-components/post-single.php:88
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post-components/post-single.php:94
+msgid "Next page"
+msgstr ""
+
+#: template-parts/post-components/post-single.php:95
+msgid "Previous page"
+msgstr ""
+
+#: template-parts/post-components/post-single.php:108
+msgid "Categories"
+msgstr ""
+
+#: template-parts/post-components/post-single.php:128
+msgid "Tags"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Certy"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://certy.px-lab.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Certy is a new word and high standard in the world of online resume and cv. "
+"Clean and beautiful eye-catching design will attract your future employer "
+"with first impression. SEO Friendly, semantically correct and w3 valid code, "
+"innovative mobile first approach and Microformats powered SEO for every page "
+"will help you to boost your CV on the internet."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Px-Lab"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://px-lab.com/"
+msgstr ""

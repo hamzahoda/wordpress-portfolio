@@ -1,0 +1,29 @@
+/**
+ * Titles
+ */
+
+.title-lg {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  & + .title-thin {
+    margin-top: -35px;
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.title-sm {
+  font-size: 20px;
+}
+
+.title-thin {
+  font-size: 1.35em;
+  font-weight: 400;
+  margin-bottom: 1.571em;
+}

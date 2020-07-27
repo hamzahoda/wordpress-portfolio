@@ -1,0 +1,1937 @@
+{
+    "key": "group_58cbc9a3d62a7",
+    "title": "Sections",
+    "fields": [
+        {
+            "key": "field_58cbc9b11990a",
+            "label": "Sections",
+            "name": "sections",
+            "type": "flexible_content",
+            "instructions": "Select the sections for this page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "58d24a791cc9e": {
+                    "key": "58d24a791cc9e",
+                    "name": "about_section",
+                    "label": "About Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d3ad7dc8822",
+                            "label": "Image",
+                            "name": "image",
+                            "type": "image",
+                            "instructions": "Upload the image",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "40",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_58f73f8f259e3",
+                            "label": "Hover Image",
+                            "name": "hover_image",
+                            "type": "image",
+                            "instructions": "Upload the image which will be shown on image hover",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "40",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_59352d8da1dfb",
+                            "label": "Center Hover Image",
+                            "name": "center_hover_image",
+                            "type": "checkbox",
+                            "instructions": "Select the checkbox to make hover image to be center aligned",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "center": "Make Center"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d2623c3e153",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "35",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "About Me",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3ad4bc8821",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "35",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58e63a25160db",
+                            "label": "Enable Social Icons",
+                            "name": "enable_social_icons",
+                            "type": "checkbox",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [
+                                "Enable"
+                            ],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d2625a3e154",
+                            "label": "Editor",
+                            "name": "editor",
+                            "type": "wysiwyg",
+                            "instructions": "Type the description",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_58d3c1ff06395",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "about",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c22f06396",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58d2786ad6ecc": {
+                    "key": "58d2786ad6ecc",
+                    "name": "data_section",
+                    "label": "Data Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d2793fd6ecf",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f0d1f9d6c5d",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c1ab06393",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "data",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c1d106394",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d278ded6ecd",
+                            "label": "Left Box",
+                            "name": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_58d27911d6ece",
+                            "label": "Title",
+                            "name": "title_left_box",
+                            "type": "text",
+                            "instructions": "Type the title for left box",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d279aed6ed0",
+                            "label": "Select Section",
+                            "name": "select_section_left_box",
+                            "type": "select",
+                            "instructions": "Select section for left box",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "info": "Info Fields",
+                                "bar": "Data Bar (Dotbar, Circlebar, Linebar)",
+                                "editor": "Editor"
+                            },
+                            "default_value": [],
+                            "allow_null": 1,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_58d3a91f9069f",
+                            "label": "Info Fields",
+                            "name": "info_fields_left_box",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58d279aed6ed0",
+                                        "operator": "==",
+                                        "value": "info"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_58d3a964906a0",
+                                    "label": "Field Name",
+                                    "name": "name_field",
+                                    "type": "text",
+                                    "instructions": "Type the field name",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_58d3a9ad906a1",
+                                    "label": "Field Value",
+                                    "name": "value_field",
+                                    "type": "text",
+                                    "instructions": "Type the field value",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_58d3aa86906ab",
+                            "label": "Select Data Bar Style",
+                            "name": "select_data_bars_style_left_box",
+                            "type": "select",
+                            "instructions": "Select the style for data bar",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58d279aed6ed0",
+                                        "operator": "==",
+                                        "value": "bar"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "dotbar": "Dotbar",
+                                "circlebar": "Circlebar",
+                                "linebar": "Linebar"
+                            },
+                            "default_value": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_58d3ab710bbdd",
+                            "label": "Data Bar",
+                            "name": "data_bar_left_box",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58d279aed6ed0",
+                                        "operator": "==",
+                                        "value": "bar"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_58d3ab8a0bbde",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "type": "text",
+                                    "instructions": "Type the title for this bar",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_58d3abba0bbdf",
+                                    "label": "Visible Value",
+                                    "name": "visible_value",
+                                    "type": "text",
+                                    "instructions": "This value will be shown to users as bar value",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_58d3abe80bbe0",
+                                    "label": "Bar Value In %",
+                                    "name": "bar_value_in",
+                                    "type": "number",
+                                    "instructions": "Type the bar value in %",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "%",
+                                    "min": 0,
+                                    "max": 100,
+                                    "step": ""
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_58d3ac6d0bbe5",
+                            "label": "Editor",
+                            "name": "editor_left_box",
+                            "type": "wysiwyg",
+                            "instructions": "You can use this editor to show the shortcodes or any content you want",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58d279aed6ed0",
+                                        "operator": "==",
+                                        "value": "editor"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_58d27a95aee5f",
+                            "label": "Right Box",
+                            "name": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_58d27aa5aee60",
+                            "label": "Title",
+                            "name": "title_right_box",
+                            "type": "text",
+                            "instructions": "Type the title for right box",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d27ab7aee61",
+                            "label": "Select Section",
+                            "name": "select_section_right_box",
+                            "type": "select",
+                            "instructions": "Select section for right box",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "info": "Info Fields",
+                                "bar": "Data Bar (Dotbar, Circlebar, Linebar)",
+                                "editor": "Editor"
+                            },
+                            "default_value": [],
+                            "allow_null": 1,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_58d3aa1a906a5",
+                            "label": "Info Fields",
+                            "name": "info_fields_right_box",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58d27ab7aee61",
+                                        "operator": "==",
+                                        "value": "info"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_58d3aa1a906a6",
+                                    "label": "Field Name",
+                                    "name": "name_field",
+                                    "type": "text",
+                                    "instructions": "Type the field name",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_58d3aa1a906aa",
+                                    "label": "Field Value",
+                                    "name": "value_field",
+                                    "type": "text",
+                                    "instructions": "Type the field value",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_58d3ab12906ac",
+                            "label": "Select Data Bar Style",
+                            "name": "select_data_bars_style_right_box",
+                            "type": "select",
+                            "instructions": "Select the style for data bar",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58d27ab7aee61",
+                                        "operator": "==",
+                                        "value": "bar"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "dotbar": "Dotbar",
+                                "circlebar": "Circlebar",
+                                "linebar": "Linebar"
+                            },
+                            "default_value": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "return_format": "value",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_58d3ac4b0bbe1",
+                            "label": "Data Bar",
+                            "name": "data_bar_right_box",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58d27ab7aee61",
+                                        "operator": "==",
+                                        "value": "bar"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_58d3ac4b0bbe2",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "type": "text",
+                                    "instructions": "Type the title for this bar",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_58d3ac4b0bbe3",
+                                    "label": "Visible Value",
+                                    "name": "visible_value",
+                                    "type": "text",
+                                    "instructions": "This value will be shown to users as bar value",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_58d3ac4b0bbe4",
+                                    "label": "Bar Value In %",
+                                    "name": "bar_value_in",
+                                    "type": "number",
+                                    "instructions": "Type the bar value in %",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "%",
+                                    "min": 0,
+                                    "max": 100,
+                                    "step": ""
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_58d3acd00bbe6",
+                            "label": "Editor",
+                            "name": "editor_right_box",
+                            "type": "wysiwyg",
+                            "instructions": "You can use this editor to show the shortcodes or any content you want",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_58d27ab7aee61",
+                                        "operator": "==",
+                                        "value": "editor"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58d27bacea1da": {
+                    "key": "58d27bacea1da",
+                    "name": "timeline_section",
+                    "label": "Timeline Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d3820f3a5de",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f0d2a7088c0",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c16406391",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "timeline",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c18806392",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_5964a76baecc7",
+                            "label": "Grayscale and color on hover",
+                            "name": "grayscale_and_color_on_hover",
+                            "type": "checkbox",
+                            "instructions": "Select the checkbox to enable the effect",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d27bd6ea1db",
+                            "label": "Select Timeline Posts",
+                            "name": "select_timeline_posts",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "certy_timeline"
+                            ],
+                            "taxonomy": [],
+                            "filters": [
+                                "search",
+                                "taxonomy"
+                            ],
+                            "elements": "",
+                            "min": "",
+                            "max": "",
+                            "return_format": "object"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58d382313a5df": {
+                    "key": "58d382313a5df",
+                    "name": "reference_section",
+                    "label": "Reference Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d382313a5e0",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f0d32b34102",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c10e0638f",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "reference",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c13a06390",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_59cb7bd460106",
+                            "label": "Grayscale and color on hover",
+                            "name": "grayscale_and_color_on_hover",
+                            "type": "checkbox",
+                            "instructions": "Select the checkbox to enable the effect",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d382313a5e1",
+                            "label": "Select Reference Posts",
+                            "name": "select_reference_posts",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "certy_references"
+                            ],
+                            "taxonomy": [],
+                            "filters": [
+                                "search",
+                                "taxonomy"
+                            ],
+                            "elements": "",
+                            "min": "",
+                            "max": "",
+                            "return_format": "object"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58d383616803a": {
+                    "key": "58d383616803a",
+                    "name": "editor_section",
+                    "label": "Editor Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d383726803b",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f0d2cf088c1",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c0a20638d",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "editor",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c0d10638e",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d383806803c",
+                            "label": "Editor",
+                            "name": "editor",
+                            "type": "wysiwyg",
+                            "instructions": "You can use this editor to show the shortcodes or any content you want",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58d3ade0a9d8c": {
+                    "key": "58d3ade0a9d8c",
+                    "name": "clients_section",
+                    "label": "Clients Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d3ae2aa9d8d",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f0d2ea088c2",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c04e0638b",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "clients",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c07d0638c",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to Enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_5964a93b39d92",
+                            "label": "Grayscale and color on hover",
+                            "name": "grayscale_and_color_on_hover",
+                            "type": "checkbox",
+                            "instructions": "Select the checkbox to enable the effect",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d3ae4ca9d8e",
+                            "label": "Select Clients Posts",
+                            "name": "select_clients_posts",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "certy_clients"
+                            ],
+                            "taxonomy": [],
+                            "filters": [
+                                "search",
+                                "taxonomy"
+                            ],
+                            "elements": "",
+                            "min": "",
+                            "max": "",
+                            "return_format": "object"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58d3b4057ebb1": {
+                    "key": "58d3b4057ebb1",
+                    "name": "portfolio_section",
+                    "label": "Portfolio Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d3b4157ebb2",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f0d36234103",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3bfe006389",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "portfolio",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3c01f0638a",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d3b4307ebb3",
+                            "label": "Categories",
+                            "name": "categories",
+                            "type": "taxonomy",
+                            "instructions": "Select the categories you want to be shown or leave this field empty to show all categories",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "certy_portfolio_category",
+                            "field_type": "multi_select",
+                            "allow_null": 1,
+                            "add_term": 0,
+                            "save_terms": 0,
+                            "load_terms": 0,
+                            "return_format": "id",
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_58db8249ff50b",
+                            "label": "Disable Related Projects",
+                            "name": "disable_related_projects",
+                            "type": "checkbox",
+                            "instructions": "Select to hide the related projects block from popup",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Disable": "Disable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58db8297ff50c",
+                            "label": "Title For Related Projects",
+                            "name": "title_for_related_projects",
+                            "type": "text",
+                            "instructions": "Type the title for related projects",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "More Projects",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58d3ba478991e": {
+                    "key": "58d3ba478991e",
+                    "name": "interests_section",
+                    "label": "Interests Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d3ba588991f",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f0d37e34104",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3ba9e89923",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "interests",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58d3bc885e46d",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58d3ba6189920",
+                            "label": "Interests",
+                            "name": "interests",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_58d3ba6f89921",
+                                    "label": "Interest Name",
+                                    "name": "interest_name",
+                                    "type": "text",
+                                    "instructions": "Type the name",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_58d3ba8089922",
+                                    "label": "Interest Class",
+                                    "name": "interest_class",
+                                    "type": "text",
+                                    "instructions": "Put the icon class",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58f9e4c7f9c61": {
+                    "key": "58f9e4c7f9c61",
+                    "name": "contact_section",
+                    "label": "Contact Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58f9e650865d3",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "Type the section title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f9e66f865d4",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "Type the subtitle",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f9e6b9865d5",
+                            "label": "Menu Id",
+                            "name": "menu_id",
+                            "type": "text",
+                            "instructions": "Type unique id, which will be used for menu anchor<br>\r\nNOTE: use different id in case of having same section more than once",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "25",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f9e6d2865d6",
+                            "label": "Enable Bottom Line",
+                            "name": "enable_bottom_line",
+                            "type": "checkbox",
+                            "instructions": "Select to enable",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58f9e4f0f9c62",
+                            "label": "Enable Social Icons",
+                            "name": "enable_social_icons",
+                            "type": "checkbox",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "enable": "Enable"
+                            },
+                            "allow_custom": 0,
+                            "save_custom": 0,
+                            "default_value": [],
+                            "layout": "vertical",
+                            "toggle": 0,
+                            "return_format": "value"
+                        },
+                        {
+                            "key": "field_58f9e544f9c63",
+                            "label": "Contact Title",
+                            "name": "contact_title",
+                            "type": "text",
+                            "instructions": "Type the title",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f9e555f9c64",
+                            "label": "Editor",
+                            "name": "editor",
+                            "type": "wysiwyg",
+                            "instructions": "You can use this editor to put contact form 7 shortcode",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "visual",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_58f9e5b3f9c65",
+                            "label": "Google Map Latitude",
+                            "name": "google_map_latitude",
+                            "type": "text",
+                            "instructions": "Put the coma separated latitudes",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_58f9e5fef9c66",
+                            "label": "Google Map Longitude",
+                            "name": "google_map_longitude",
+                            "type": "text",
+                            "instructions": "Put the coma separated longitude",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "58d382af3a5e2": {
+                    "key": "58d382af3a5e2",
+                    "name": "end_of_paper_divider",
+                    "label": "End Of Paper",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_58d382e03a5e4",
+                            "label": "",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "This section divide above section from below section adding border to paper.",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1506507878
+}

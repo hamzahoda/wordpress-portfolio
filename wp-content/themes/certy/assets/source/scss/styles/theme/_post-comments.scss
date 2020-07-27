@@ -1,0 +1,118 @@
+/* Post Comments */
+.comments-area,
+.comment-respond {
+  margin-top: 4.375em;
+}
+
+.comment-list {
+  border-bottom: 1px solid transparent;
+
+  &>li:first-child>.comment-body {
+    border-top: none;
+  }
+}
+
+.comment {
+  .children {
+    display: none;
+    padding: 0;
+    list-style: none;
+  }
+
+  &.show-replies {
+    .children {
+      display: block;
+    }
+  }
+}
+
+.comment-body {
+  min-height: 58px;
+  position: relative;
+  border-top: 1px solid transparent;
+  padding: 1.063em 0;
+}
+
+.comment-header {
+  margin-bottom: 0.688em;
+
+  .avatar {
+    top: 1.063em;
+    left: 0;
+    position: absolute;
+    border-radius: 50%;
+  }
+}
+
+.comment-header,
+.comment-links {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.comment-author {
+  font-size: 0.933em;
+  letter-spacing: 0;
+  margin-bottom: 0.25em;
+}
+
+.comment-date {
+  font-size: 0.72em;
+}
+
+.comment-footer {
+  font-size: 0.82em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+
+  a {
+    margin-right: 5px;
+  }
+}
+
+.comment-links,
+.comment-replys-count {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 1.65em;
+}
+
+.bypostauthor > .comment-body .fn:after {
+  content: "\f007";
+  font-size: 0.85em;
+  font-family: 'icomoon';
+  position: relative;
+  margin-left: 0.6em;
+}
+
+
+@media (min-width: $screen-sm) {
+  .comment-list {
+    ol {
+      margin-left: 75px;
+    }
+  }
+
+  .comment-body {
+    padding-left: 75px;
+  }
+
+  .comment-links {
+    position: absolute;
+    right: 0;
+    top: 1.063em;
+    margin-top: 0;
+  }
+
+  .comment-header {
+    padding-right: 5.4em;
+  }
+}
+
+@media (max-width: $screen-sm - 1) {
+  .comment-header {
+    min-height: 58px;
+    padding-left: 65px;
+  }
+}

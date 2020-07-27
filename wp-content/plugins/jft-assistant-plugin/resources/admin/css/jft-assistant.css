@@ -1,0 +1,229 @@
+.jft-spinner {
+	display: none;
+	width: 16px;
+	height: 16px;
+	margin: auto;
+	opacity: 0.7;
+	background: url("/wp-admin/images/wpspin_light.gif") no-repeat;
+	background-size: 16px 16px;
+
+	filter: alpha(opacity=70);
+}
+
+.jft-theme {
+	float: left;
+	width: 30%;
+	margin: 1%;
+	cursor: pointer;
+}
+
+.jft-theme img {
+	max-width: 100%;
+}
+
+/*
+Next code must be prefixed with custom jft class.
+ */
+
+/*Search box */
+.jft-page .wp-filter {
+	padding: 0 10px;
+}
+
+.jft-page .wp-filter .search-form input[type=search] {
+	padding: 10px 15px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.jft-page .wp-filter-search:focus {
+	border-color: #39424b;
+	box-shadow: none;
+}
+
+/* Theme box */
+.jft-page .theme {
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.jft-page .theme:focus {
+	border: none;
+	outline: none;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.jft-page .theme .more-details,
+.jft-page .theme:hover .more-details,
+.jft-page .theme:focus .more-details {
+	visibility: hidden;
+	opacity: 0;
+}
+
+/* Theme title */
+.jft-page .theme .theme-name {
+	padding: 20px 15px;
+	border-radius: 0 0 3px 3px;
+	color: #39424b;
+	background: #f6f8fa;
+	box-shadow: none;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -0.025em;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.jft-page .theme:hover .theme-name {
+	color: #ff5964;
+}
+
+/* Screenshot */
+.jft-page .theme:hover .theme-screenshot {
+	background: transparent;
+}
+
+.jft-page .theme .theme-screenshot img {
+	border-radius: 3px;
+}
+
+.jft-page .theme:hover .theme-screenshot img,
+.jft-page.rendered .theme:hover .theme-screenshot img,
+.jft-page .theme:focus .theme-screenshot img,
+.jft-page.rendered .theme:focus .theme-screenshot img {
+	opacity: 1 !important;
+	-webkit-animation: imgAnim 0.3s;
+	animation: imgAnim 0.3s;
+}
+
+/* Buttons */
+.jft-page .theme .theme-actions {
+	right: 15px;
+	padding: 0;
+	border-left: none;
+	opacity: 1;
+	background: transparent;
+	box-shadow: none;
+}
+
+.jft-page .theme .theme-actions .button {
+	height: auto;
+	padding: 5px 8px;
+	border: 1px solid;
+	border-radius: 3px;
+	color: #fff;
+	box-shadow: none;
+	text-shadow: none;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.jft-page .theme .theme-actions .button:active {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.jft-page .theme .theme-actions .button.theme-install {
+	border-color: #ff5964;
+	background: #ff5964;
+}
+
+.jft-page .theme .theme-actions .button.theme-install:hover {
+	background: #f04348;
+}
+
+.jft-page .theme .theme-actions .button.install-theme-preview,
+.jft-page .theme .theme-actions .button.load-customize {
+	color: #39424b;
+	background: transparent;
+}
+
+.jft-page .theme .theme-actions .button.install-theme-preview:hover,
+.jft-page .theme .theme-actions .button.load-customize:hover {
+	border-color: #39424b;
+	color: #fff;
+	background: #39424b;
+}
+
+.jft-page .theme .theme-actions .button.activate {
+	border-color: #01baef;
+	background: #01baef;
+}
+
+.jft-page .theme .theme-actions .button.activate:hover {
+	border-color: #39424b;
+	background: #39424b;
+}
+
+/* Notice */
+.jft-page .theme .notice {
+	border: none;
+	border-radius: 3px 3px 0 0;
+}
+
+.jft-page .theme .notice p {
+	margin: 0;
+	padding: 10px 0;
+	color: #01baef;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.jft-page .theme .notice-success p:before {
+	margin-right: 2px;
+	color: #01baef;
+}
+
+.jft-page .theme .notice-success.notice-alt {
+	background-color: #dff8ff;
+}
+
+/* Animations */
+@-webkit-keyframes imgAnim {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	50% {
+		opacity: 0.9;
+		-webkit-transform: scale(1.03);
+		transform: scale(1.03);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@keyframes imgAnim {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	50% {
+		opacity: 0.9;
+		-webkit-transform: scale(1.03);
+		transform: scale(1.03);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}

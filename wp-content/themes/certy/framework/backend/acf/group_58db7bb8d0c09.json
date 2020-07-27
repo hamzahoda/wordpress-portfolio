@@ -1,0 +1,302 @@
+{
+    "key": "group_58db7bb8d0c09",
+    "title": "Portfolio Options",
+    "fields": [
+        {
+            "key": "field_58db7c9af4573",
+            "label": "Popup Slider",
+            "name": "popup_slider",
+            "type": "repeater",
+            "instructions": "Upload the images which will appear on this item's popup",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_58db7e8af4576",
+                    "label": "Media Type",
+                    "name": "media_type",
+                    "type": "select",
+                    "instructions": "Select the media type",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "image": "Image",
+                        "iframe": "Video Iframe",
+                        "video": "Video Upload"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_58db7d07f4574",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58db7e8af4576",
+                                "operator": "==",
+                                "value": "image"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_58db7f18f4577",
+                    "label": "Iframe Url",
+                    "name": "iframe_url",
+                    "type": "text",
+                    "instructions": "Paste Vimeo , Youtube or dailymotion embedded url here.",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58db7e8af4576",
+                                "operator": "==",
+                                "value": "iframe"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_58db7f48f4578",
+                    "label": "Mp4 File",
+                    "name": "mp4_file",
+                    "type": "file",
+                    "instructions": "Upload the video in mp4 format",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58db7e8af4576",
+                                "operator": "==",
+                                "value": "video"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "mp4"
+                },
+                {
+                    "key": "field_58db7f78f4579",
+                    "label": "Webm File",
+                    "name": "webm_file",
+                    "type": "file",
+                    "instructions": "Upload the video in webm format",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58db7e8af4576",
+                                "operator": "==",
+                                "value": "video"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "webm"
+                },
+                {
+                    "key": "field_58db7f9cf457a",
+                    "label": "Ogv File",
+                    "name": "ogv_file",
+                    "type": "file",
+                    "instructions": "Upload the video in ogv format",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58db7e8af4576",
+                                "operator": "==",
+                                "value": "video"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "ogv"
+                },
+                {
+                    "key": "field_58db7fbef457b",
+                    "label": "Poster Image",
+                    "name": "poster_image",
+                    "type": "image",
+                    "instructions": "Upload the poster image for video",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_58db7e8af4576",
+                                "operator": "==",
+                                "value": "video"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_58db805430221",
+            "label": "Info Fields",
+            "name": "info_fields",
+            "type": "repeater",
+            "instructions": "Add the field for item's popup",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_58db808530222",
+                    "label": "Name",
+                    "name": "name",
+                    "type": "text",
+                    "instructions": "Type the field name",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_58db812b30223",
+                    "label": "Value",
+                    "name": "value",
+                    "type": "text",
+                    "instructions": "Type the field value",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "certy_portfolio"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1493810169
+}

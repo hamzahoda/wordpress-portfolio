@@ -1,0 +1,294 @@
+/**
+ * Calendar
+ */
+.apcal_btn{
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: .05em;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 8px 25px;
+  display: inline-block;
+  border-radius: 35px;
+  background: 0 0;
+  border: 2px solid transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  box-shadow: transparent 0 0 0;
+  transition: all .5s cubic-bezier(.23,1,.32,1) 0s;
+  text-shadow:none;
+}
+
+.apcal_btn:focus{
+  outline: none;
+}
+
+.apcal_btn:hover{
+  background: none;
+  -webkit-box-shadow: -1px 2px 4px rgba(0,0,0,.25);
+  -moz-box-shadow: -1px 2px 4px rgba(0,0,0,.25);
+  box-shadow: -1px 2px 4px rgba(0,0,0,.25);
+}
+
+.apcal_modal-info .icon-remove,
+.apcal_btn [class*='icon-']{
+  font-family: 'icomoon';
+  background: none;
+  font-style: normal;
+  vertical-align: middle;
+}
+
+.apcal_btn [class*='icon-']{
+  margin: 0 .8em 0 0;
+}
+
+.apcal_btn#next1 [class*='icon-']{
+  margin:  0 0 0 .8em;
+}
+
+.apcal_btn#next1{
+  float: right;
+}
+
+.apcal_modal-info .icon-remove{
+  text-shadow: none;
+  margin-top: -8px;
+}
+
+.apcal_modal-info .icon-remove:before{
+  content: "\f00d";
+}
+
+.apcal_btn .icon-calendar:before{
+  content: "\e91b";
+}
+
+.apcal_btn .icon-arrow-right:before{
+  content: "\f054";
+}
+
+.apcal_btn .icon-arrow-left:before{
+  content: "\f053";
+}
+
+.apcal_btn .icon-ok:before{
+  content: "\f00c";
+}
+
+
+#addappointment{
+  margin-bottom: 15px;
+}
+
+.fc-header-left .fc-button-content{
+  padding: 0;
+}
+
+.fc-state-default,
+.fc-state-default .fc-button-inner{
+  border: 0;
+  background: none;
+}
+
+.fc table{
+  border-spacing: 10px;
+  margin-bottom: 5px;
+}
+
+.fc-grid th{
+  padding: 20px 5px;
+}
+
+.fc-grid td{
+  text-align: center;
+}
+
+.fc-grid .fc-day-number{
+  float: none;
+  font-weight: bold;
+}
+
+.fc-border-separate th,
+.fc-border-separate td{
+  border: 0;
+}
+
+/* popup */
+.div_calendar{
+  margin-left: 0 !important;
+}
+
+.apcal_alert{
+  padding-right: 15px;
+}
+
+.apcal_alert-block {
+  padding: 0;
+  background: none;
+  border: 0;
+  margin-bottom: 40px;
+}
+
+#timesloatbox{
+  font-size: 13px;
+}
+
+.apcal_modal-body .apcal_alert-info {
+  font-size: 16px;
+  background: none;
+  text-align: left;
+  border-bottom: solid 1px transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.apcal_modal #bordercssremove td{
+  border:0;
+}
+
+.apcal_modal #bordercssremove tr:not( #buttonbox ) td:nth-child(2) strong{
+  display:none;
+}
+
+.apcal_modal #bordercssremove tr td:first-child strong{
+  font-weight: normal;
+}
+
+
+
+
+#calendar.fc {
+
+  textarea, input[type="text"], input[type="password"], input[type="datetime"],
+  input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"],
+  input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+  {
+    border: 0 ;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    padding: 10px 15px;
+    line-height: 20px;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    background-image: none;
+    transition: border .5s cubic-bezier(.23,1,.32,1) 0s;
+  }
+
+
+  textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus,
+  input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus,
+  input[type="email"]:focus, input[type="url"]:focus,
+  input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+}
+
+.apcal_modal {
+
+  #buttonbox td {
+    text-align: right;
+  }
+
+  #buttonbox .apcal_btn {
+    margin-top: 20px;
+  }
+
+}
+
+.fc-event{
+  border: 0;
+  background: none !important;
+}
+
+.fc-event .fc-event-inner{
+  border:0;
+  padding: 0 5px;
+}
+
+//mobile styles
+@media screen and (max-width: 767px){
+  .fc-header-title h2{
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .fc-header td {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .fc-header .fc-header-center{
+    padding: 10px 5px;
+  }
+
+  .fc-header-title{
+    vertical-align: middle;
+  }
+
+  .fc-header .fc-header-right{
+    padding-top: 1em;
+  }
+
+  .apcal_modal{
+    width: 300px;
+    margin-left: -150px;
+  }
+
+  .apcal_modal #secdiv{
+     float: left !important;
+     margin-top: 25px;
+     clear: both;
+  }
+
+  .apcal_modal #bordercssremove td{
+    display: block;
+    width: 100%;
+  }
+
+  .apcal_modal #buttonbox td:first-child{
+    display:none;
+  }
+
+  .apcal_modal .apcal-error{
+    width: auto !important;
+  }
+
+  .fc-view-month{
+    overflow-x:auto;
+  }
+
+  .fc-widget-header{
+    min-width: 75px;
+  }
+}
+
+
+/*Color scheme*/
+.apcal_modal .apcal-error{
+  color: $alert-danger;
+}

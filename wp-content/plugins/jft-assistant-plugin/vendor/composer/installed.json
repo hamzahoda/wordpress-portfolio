@@ -1,0 +1,89 @@
+[
+    {
+        "name": "codeinwp/themeisle-sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Codeinwp/themeisle-sdk.git",
+            "reference": "d036ec8dd9ad318a05af3f21222025ec6a389a42"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/d036ec8dd9ad318a05af3f21222025ec6a389a42",
+            "reference": "d036ec8dd9ad318a05af3f21222025ec6a389a42",
+            "shasum": ""
+        },
+        "require-dev": {
+            "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+            "squizlabs/php_codesniffer": "^3.1",
+            "wp-coding-standards/wpcs": "^1.0.0"
+        },
+        "time": "2019-11-18 12:33:19",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "ThemeIsle team",
+                "email": "friends@themeisle.com",
+                "homepage": "https://themeisle.com"
+            }
+        ],
+        "description": "ThemeIsle SDK.",
+        "homepage": "https://github.com/Codeinwp/themeisle-sdk",
+        "keywords": [
+            "wordpress"
+        ]
+    },
+    {
+        "name": "yahnis-elsts/plugin-update-checker",
+        "version": "v4.8.1",
+        "version_normalized": "4.8.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
+            "reference": "908249c92e81c46cb66e4d81632c5e917dc879ae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/908249c92e81c46cb66e4d81632c5e917dc879ae",
+            "reference": "908249c92e81c46cb66e4d81632c5e917dc879ae",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2019-10-08 12:15:30",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "load-v4p8.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yahnis Elsts",
+                "email": "whiteshadow@w-shadow.com",
+                "homepage": "http://w-shadow.com/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A custom update checker for WordPress plugins and themes. Useful if you can't host your plugin in the official WP repository but still want it to support automatic updates.",
+        "homepage": "https://github.com/YahnisElsts/plugin-update-checker/",
+        "keywords": [
+            "automatic updates",
+            "plugin updates",
+            "theme updates",
+            "wordpress"
+        ]
+    }
+]

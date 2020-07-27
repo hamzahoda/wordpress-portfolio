@@ -1,0 +1,66 @@
+
+---Downloaded files---
+The import files for: Developer were successfully downloaded!
+Initial max execution time = 600
+Files info:
+Site URL = http://localhost/portfolio
+Data file = D:\newxampp\htdocs\portfolio/wp-content/uploads/2020/06/demo-content-import-file_2020-06-29__20-24-13.xml
+Widget file = D:\newxampp\htdocs\portfolio/wp-content/uploads/2020/06/demo-widgets-import-file_2020-06-29__20-24-13.json
+Customizer file = D:\newxampp\htdocs\portfolio/wp-content/uploads/2020/06/demo-customizer-import-file_2020-06-29__20-24-13.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Left Sidebar 1 : 
+
+Certy: Sticky Widget - No Title - Imported
+Certy: Card Widget - Robert Smith - Imported
+Text - No Title - Imported
+
+Main Left Sidebar 2 : 
+
+Certy: Instagram Widget - Instagram - Imported
+
+Right Sidebar : 
+
+Certy: Card Widget - Robert Smith - Imported
+Search - Search - Imported
+Tag Cloud - Tags - Imported
+Recent Posts - From the Blog - Imported
+
+Right Sidebar For Pages : 
+
+Recent Comments - Recent Comments - Imported
+Search - Search - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

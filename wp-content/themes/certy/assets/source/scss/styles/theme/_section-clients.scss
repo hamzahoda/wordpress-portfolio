@@ -1,0 +1,33 @@
+/**
+ * Section: Clients
+ */
+
+.clients {
+   margin: 0 -10px;
+
+   li {
+     width: 100%;
+     padding: 10px 10px;
+     text-align: center;
+     display: inline-block;
+     vertical-align: middle;
+   }
+
+  img {
+    max-width: 120px;
+  }
+
+  @media (min-width: $screen-xs) {
+    li {
+      width: 33.33%;
+
+      &:nth-child(3n+1) {
+        text-align: left;
+      }
+
+      &:nth-child(3n+3) {
+        text-align: right;
+      }
+    }
+  }
+ }

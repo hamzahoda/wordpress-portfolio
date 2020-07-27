@@ -1,0 +1,571 @@
+# Copyright (C) 2018 Rigorous Theme
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-08-08 16:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator:\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:51
+msgid "Primary"
+msgstr ""
+
+#: functions.php:52
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:118
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:120
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/customizer/control.php:26
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer/default.php:28 inc/hook/basic.php:57
+msgid "Home"
+msgstr ""
+
+#: inc/customizer/default.php:29 inc/customizer/default.php:38
+msgid "About Me"
+msgstr ""
+
+#: inc/customizer/default.php:31
+msgid "UI/UX"
+msgstr ""
+
+#: inc/customizer/default.php:35
+msgid "About us"
+msgstr ""
+
+#: inc/customizer/default.php:36
+msgid "Who Am I?"
+msgstr ""
+
+#: inc/customizer/default.php:40
+msgid "History"
+msgstr ""
+
+#: inc/customizer/default.php:44
+msgid "Service"
+msgstr ""
+
+#: inc/customizer/default.php:45
+msgid "What I Do?"
+msgstr ""
+
+#: inc/customizer/default.php:52
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer/default.php:53
+msgid "My Work"
+msgstr ""
+
+#: inc/customizer/default.php:59
+msgid "Testimonial"
+msgstr ""
+
+#: inc/customizer/default.php:60
+msgid "My Clients"
+msgstr ""
+
+#: inc/customizer/default.php:63
+msgid "Partner"
+msgstr ""
+
+#: inc/customizer/default.php:67
+msgid "Team"
+msgstr ""
+
+#: inc/customizer/default.php:68
+msgid "My Team"
+msgstr ""
+
+#: inc/customizer/default.php:74
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/default.php:75
+msgid "My Tips & Tricks"
+msgstr ""
+
+#: inc/customizer/default.php:81
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer/default.php:82
+msgid "Get in Touch"
+msgstr ""
+
+#: inc/customizer/default.php:94
+msgid "Follow Me"
+msgstr ""
+
+#: inc/customizer/home-section.php:12
+msgid "Front Page Options"
+msgstr ""
+
+#: inc/customizer/home-section.php:21
+msgid "Banner Setting"
+msgstr ""
+
+#: inc/customizer/home-section.php:36
+msgid "Enable Banner"
+msgstr ""
+
+#: inc/customizer/home-section.php:54 inc/customizer/home-section.php:197
+msgid "Menu Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:73 inc/customizer/home-section.php:216
+#: inc/customizer/home-section.php:392 inc/customizer/home-section.php:491
+#: inc/customizer/home-section.php:588 inc/customizer/home-section.php:735
+#: inc/customizer/home-section.php:832 inc/customizer/home-section.php:929
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:92 inc/customizer/home-section.php:254
+#: inc/customizer/home-section.php:293 inc/customizer/home-section.php:948
+#: inc/customizer/repeater-controller/repeater-class.php:192
+#: inc/customizer/repeater-controller/repeater-class.php:202
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer/home-section.php:93 inc/customizer/home-section.php:255
+#: inc/customizer/home-section.php:294 inc/customizer/home-section.php:949
+msgid ""
+"Select page from dropdown or leave blank if you want to hide this section."
+msgstr ""
+
+#: inc/customizer/home-section.php:112
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:136
+msgid "Progress Bar Options"
+msgstr ""
+
+#: inc/customizer/home-section.php:138
+msgid "Progress Bar"
+msgstr ""
+
+#: inc/customizer/home-section.php:139
+msgid "Add Progress Bar"
+msgstr ""
+
+#: inc/customizer/home-section.php:144 inc/customizer/home-section.php:324
+msgid "Number"
+msgstr ""
+
+#: inc/customizer/home-section.php:150
+msgid "Symbol"
+msgstr ""
+
+#: inc/customizer/home-section.php:156 inc/customizer/home-section.php:330
+#: inc/customizer/home-section.php:643 inc/customizer/theme-section.php:217
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:165
+msgid "About Setting"
+msgstr ""
+
+#: inc/customizer/home-section.php:179
+msgid "Enable About Section"
+msgstr ""
+
+#: inc/customizer/home-section.php:235 inc/customizer/home-section.php:274
+msgid "Intro Page Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:316
+msgid "Counter Options"
+msgstr ""
+
+#: inc/customizer/home-section.php:318
+msgid "Counter"
+msgstr ""
+
+#: inc/customizer/home-section.php:319
+msgid "Add Counter"
+msgstr ""
+
+#: inc/customizer/home-section.php:339
+msgid "Service Setting"
+msgstr ""
+
+#: inc/customizer/home-section.php:354
+msgid "Enable Service Section"
+msgstr ""
+
+#: inc/customizer/home-section.php:373
+msgid "Service Menu Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:410 inc/customizer/home-section.php:509
+#: inc/customizer/home-section.php:606 inc/customizer/home-section.php:753
+#: inc/customizer/home-section.php:850
+#: inc/customizer/repeater-controller/repeater-class.php:159
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/home-section.php:427 inc/customizer/home-section.php:526
+#: inc/customizer/home-section.php:623 inc/customizer/home-section.php:770
+#: inc/customizer/home-section.php:867
+msgid "Select Number"
+msgstr ""
+
+#: inc/customizer/home-section.php:439
+msgid "Portfolio Setting"
+msgstr ""
+
+#: inc/customizer/home-section.php:454
+msgid "Enable Portfolio Section"
+msgstr ""
+
+#: inc/customizer/home-section.php:472
+msgid "Portfolio Menu Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:537
+msgid "Testimonial Setting"
+msgstr ""
+
+#: inc/customizer/home-section.php:552
+msgid "Enable Testimonial Section"
+msgstr ""
+
+#: inc/customizer/home-section.php:569
+msgid "Testimonial Menu Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:665
+msgid "Partner Logo Options"
+msgstr ""
+
+#: inc/customizer/home-section.php:667
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/home-section.php:668
+msgid "Add Logo"
+msgstr ""
+
+#: inc/customizer/home-section.php:673
+msgid "Client Logo"
+msgstr ""
+
+#: inc/customizer/home-section.php:682
+msgid "Team Setting"
+msgstr ""
+
+#: inc/customizer/home-section.php:697
+msgid "Enable Team Section"
+msgstr ""
+
+#: inc/customizer/home-section.php:716
+msgid "Team Menu Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:780
+msgid "Blog Setting"
+msgstr ""
+
+#: inc/customizer/home-section.php:795
+msgid "Enable Blog Section"
+msgstr ""
+
+#: inc/customizer/home-section.php:813
+msgid "Blog Menu Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:877
+msgid "Contact Setting"
+msgstr ""
+
+#: inc/customizer/home-section.php:892
+msgid "Enable Contact Section"
+msgstr ""
+
+#: inc/customizer/home-section.php:910
+msgid "contact Menu Title"
+msgstr ""
+
+#: inc/customizer/home-section.php:967
+msgid "Call to Action"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:143
+msgid "No image selected"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:149
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:150
+msgid "Select Image"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:160
+#: inc/customizer/repeater-controller/repeater-class.php:282
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:306
+msgid "Delete"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:307
+msgid "Close"
+msgstr ""
+
+#: inc/customizer/theme-section.php:12
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/theme-section.php:26
+msgid "Choose Option"
+msgstr ""
+
+#: inc/customizer/theme-section.php:31
+msgid "Logo Only"
+msgstr ""
+
+#: inc/customizer/theme-section.php:32
+msgid "Logo + Tagline"
+msgstr ""
+
+#: inc/customizer/theme-section.php:33
+msgid "Title Only"
+msgstr ""
+
+#: inc/customizer/theme-section.php:34
+msgid "Title + Tagline"
+msgstr ""
+
+#: inc/customizer/theme-section.php:42
+msgid "Header Setting"
+msgstr ""
+
+#: inc/customizer/theme-section.php:57
+msgid "Enable One Page"
+msgstr ""
+
+#: inc/customizer/theme-section.php:73
+msgid "Enable Search"
+msgstr ""
+
+#: inc/customizer/theme-section.php:89 inc/customizer/theme-section.php:199
+msgid "Enable Social Menu"
+msgstr ""
+
+#: inc/customizer/theme-section.php:98
+msgid "General Setting"
+msgstr ""
+
+#: inc/customizer/theme-section.php:113
+msgid "Enable Author"
+msgstr ""
+
+#: inc/customizer/theme-section.php:129
+msgid "Enable Posted Date"
+msgstr ""
+
+#: inc/customizer/theme-section.php:147
+msgid "Pagaination Options"
+msgstr ""
+
+#: inc/customizer/theme-section.php:152
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/theme-section.php:153
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer/theme-section.php:170
+msgid "Archive Page Content Options"
+msgstr ""
+
+#: inc/customizer/theme-section.php:175
+msgid "Full Content"
+msgstr ""
+
+#: inc/customizer/theme-section.php:176
+msgid "Excpert"
+msgstr ""
+
+#: inc/customizer/theme-section.php:184
+msgid "Footer Setting"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Barlow, translate this to 'off'. Do not translate into your own language.
+#: inc/hook/basic.php:20
+msgctxt "Josefin Sans: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/hook/basic.php:83
+msgid "PREV"
+msgstr ""
+
+#: inc/hook/basic.php:84
+msgid "NEXT"
+msgstr ""
+
+#: inc/hook/basic.php:105
+msgid "Read More"
+msgstr ""
+
+#: inc/hook/custom.php:177
+#, php-format
+msgid "Theme of %s"
+msgstr ""
+
+#: inc/hook/structure.php:49
+msgid "Skip to content"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:48
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:65
+msgid " "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:68
+#, php-format
+msgid "  %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:72
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:75
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:95
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:112
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/section/section-portfoliosection.php:50
+msgid "View"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "My Portfolio"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://rigorousthemes.com/downloads/my-portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Tired of looking through an endless stream of WordPress themes?"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rigorous Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rigorousthemes.com/"
+msgstr ""

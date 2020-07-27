@@ -1,0 +1,40 @@
+{
+    "key": "group_58ee14c21548c",
+    "title": "Audio Options",
+    "fields": [
+        {
+            "key": "field_58ee14d968ccc",
+            "label": "Put Audio",
+            "name": "put_audio",
+            "type": "oembed",
+            "instructions": "Use the wordpress <a href=\"https:\/\/codex.wordpress.org\/Audio_Shortcode\" target=\"_blank\">audio shortcode<\/a> or just put  soundcloud url",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "audio"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1492003036
+}

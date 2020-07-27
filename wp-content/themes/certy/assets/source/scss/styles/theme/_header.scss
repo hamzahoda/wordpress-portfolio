@@ -1,0 +1,229 @@
+/**
+ * Header
+ */
+
+#crtHeader {
+  position: relative;
+}
+
+.crt-head-inner {
+  position: static;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+
+  @media (min-width: $screen-md) {
+    & {
+      border: none;
+      background: transparent !important;
+    }
+  }
+}
+
+.crt-head-row {
+  display: table;
+  width: 100%;
+}
+
+.crt-head-col {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+// Logo
+.crt-logo {
+  font-size: 26px;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  display: inline-block;
+
+  img, svg, span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  img, svg {
+    max-height: 45px;
+  }
+
+  img + span {
+    margin-left: 10px;
+    padding-right: 20px;
+  }
+}
+
+// Logo Out
+.crt-logo-out {
+  @media (min-width: $screen-sm) {
+    .crt-nav-on & {
+      #crtHeadCol1 {
+        width: 330px;
+      }
+
+      #crtHeadCol2 {
+        width: auto;
+      }
+
+      #crtHeadCol1 + #crtHeadCol2 {
+        padding-left: 0;
+      }
+    }
+
+    .crt-side-box-on & {
+      .crt-container-sm {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+// Header Mixin's
+@mixin crt-sidebar-btn-lg() {
+  #crtSidebarBtn {
+    top: 20px;
+    right: 0;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+  }
+}
+
+@mixin crt-sidebar-btn-sm() {
+  #crtSidebarBtn {
+    top: auto;
+    left: auto;
+    width: 50px;
+    height: 50px;
+    position: static;
+  }
+
+  #crtHeadCol2 {
+    padding-right: 25px;
+  }
+}
+
+@mixin crt-head-col-lg() {
+  .crt-head-col {
+    height: 63px;
+  }
+}
+
+@mixin crt-head-col-sm() {
+  .crt-head-col {
+    height: 50px;
+  }
+}
+
+@mixin crt-head-reset-mrg-r() {
+  #crtHeader {
+    .crt-container-sm {
+      margin-right: 0;
+    }
+  }
+}
+
+@mixin crt-head-col3() {
+  #crtHeadCol3 {
+    width: 50px;
+  }
+}
+
+// Nav - ON
+.crt-nav-on {
+  &.crt-nav-type1 {
+    #crtHeader {
+      .crt-container-sm {
+        margin-right: 0;
+      }
+    }
+  }
+
+  @media (min-width: $screen-sm) {
+    #crtHeadCol1 + #crtHeadCol2 {
+      padding-left: 25px;
+    }
+
+    #crtHeadCol2 {
+      width: 100%;
+    }
+  }
+}
+
+// Sidebar - ON
+.crt-sidebar-on {
+  #crtSidebarBtn {
+    transition: all 350ms ease-out;
+  }
+
+  @media (min-width: $container + 196) {
+    @include crt-sidebar-btn-lg();
+    @include crt-head-col-lg();
+  }
+
+  @media (max-width: $container + 195) and (min-width: $screen-md) {
+    @include crt-sidebar-btn-sm();
+    @include crt-head-col-sm();
+    @include crt-head-col3();
+  }
+
+  // Container + Nav
+  &.crt-nav-on {
+    &.crt-nav-type1 {
+      &.crt-side-box-off {
+        @media (min-width: $container + $nav-width + 196) {
+          @include crt-sidebar-btn-lg();
+        }
+
+        @media (max-width: $container + $nav-width + 195) and (min-width: $screen-md) {
+          @include crt-sidebar-btn-sm();
+          @include crt-head-col-sm();
+          @include crt-head-col3();
+        }
+      }
+    }
+
+    &.crt-nav-type2 {
+      &.crt-side-box-off {
+        @media (min-width: $container + $nav-width + 196) {
+          @include crt-sidebar-btn-lg();
+        }
+
+        @media (max-width: $container + $nav-width + 195) and (min-width: $screen-md) {
+          @include crt-sidebar-btn-sm();
+          @include crt-head-col-sm();
+          @include crt-head-col3();
+          @include crt-head-reset-mrg-r();
+        }
+      }
+    }
+  }
+
+  // Side Box ON
+  &.crt-side-box-on {
+    @media (min-width: $container + $side-box-width + $side-box-space + 196) {
+      @include crt-sidebar-btn-lg();
+    }
+
+    @media (max-width: $container + $side-box-width + $side-box-space + 195) and (min-width: $screen-md) {
+      @include crt-sidebar-btn-sm();
+      @include crt-head-col-sm();
+      @include crt-head-col3();
+    }
+
+    &.crt-nav-on {
+      &.crt-nav-type1 {
+        @media (min-width: $container + $side-box-width + $side-box-space + $nav-width + 196)  {
+          @include crt-sidebar-btn-lg();
+        }
+
+        @media (max-width: $container + $side-box-width + $side-box-space + $nav-width + 195) and (min-width: $screen-md) {
+          @include crt-sidebar-btn-sm();
+          @include crt-head-col-sm();
+          @include crt-head-col3();
+        }
+      }
+    }
+  }
+}

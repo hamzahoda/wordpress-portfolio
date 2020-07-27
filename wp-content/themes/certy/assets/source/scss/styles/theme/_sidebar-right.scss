@@ -1,0 +1,67 @@
+/**
+ * Right Sidebar
+ */
+ 
+#crtSidebar {
+  top: 0;
+  right: 0;
+  width: 85%;
+  max-width: 320px;
+  height: 100%;
+  z-index: 10000;
+  position: fixed;
+  padding: 13px 0;
+  transform: translate(400px, 0);
+  transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+
+  .crt-sidebar-opened & {
+    transform: translate(0, 0);
+  }
+
+  .mCSB_inside > .mCSB_container {
+    margin: 0;
+  }
+
+  .mCSB_scrollTools {
+    right: -3px;
+  }
+
+  .certy_widget_card {
+    margin-bottom: 20px;
+  }
+}
+
+#crtSidebarInner {
+  height: 100%;
+  padding: 0 13px;
+  overflow: auto;
+}
+
+#crtSidebarClose {
+  top: 6px;
+  left: -42px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+
+  .crt-icon {
+    font-size: 15px;
+    line-height: 35px;
+    margin-left: 1px;
+    margin-top: -1px;
+  }
+}
+
+@media ( max-width: $screen-md - 1 ){
+  #crtSidebarBtn {
+    background: transparent !important;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+
+    .crt-icon {
+      line-height: 1;
+    }
+  }
+}
